@@ -1,0 +1,195 @@
+# ===========================================================================
+# Multilingual file for the TOS 7 Docker application "holoplaydocker".
+# File name MUST be: <appid>.lang.  23-language superset (14 required by TOS).
+# The App Center picks the text matching the user's device language;
+# untranslated nodes fall back to English, which the official guide allows.
+# Fields: name (app title), auth (upstream author), descript (up to 512
+# chars), release_note, important (up to 512 chars).
+# Translations come from tosapp.json "translations"; run
+#   tosdocker lang <app>          to re-render this file
+#   tosdocker translate <app>     to see what still needs translating
+# ===========================================================================
+[en-us]
+name         = "HoloPlay"
+auth         = "spout8301"
+version      = "@@VERSION@@"
+descript     = "HoloPlay is a web player for 3D, VR and spatial video with support for side-by-side and over-under formats and head tracking. This package runs the Docker Hub image as a non-root container and rebuilds nginx on port 8080 to serve the player. Only the x86_64 package is built because the upstream image does not publish an arm64 variant."
+release_note = "1. First release."
+important    = "Open the web UI on port 8116 and pick a local video file. The player is a static web app; no server-side data is written. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Plain HTTP on the LAN (WebXR requires HTTPS on some browsers, use a reverse proxy if needed)."
+
+[zh-cn]
+name         = "HoloPlay"
+auth         = "spout8301"
+version      = "@@VERSION@@"
+descript     = "习惯打卡与连续天数统计，界面简洁。"
+release_note = "1. First release."
+important    = "首次使用请打开网页完成初始化。数据保存在 DockerAppData/beaverhabitsdocker，重启和升级不会丢失。容器以 uid 1000 运行，挂载目录需对该用户可读。需要 DockerEngine；Docker Hub 不可达时先配置镜像加速。卸载并删除数据前请备份。局域网内为 HTTP。"
+
+[zh-hk]
+name         = "HoloPlay"
+auth         = "spout8301"
+version      = "@@VERSION@@"
+descript     = "习惯打卡与连续天数统计，界面简洁。"
+release_note = "1. First release."
+important    = "首次使用請開啟網頁完成初始化。資料保存在 DockerAppData/beaverhabitsdocker，重新啟動和升級不會遺失。容器以 uid 1000 運行，掛載目錄需對該使用者可讀。需要 DockerEngine；Docker Hub 不可達時先設定鏡像加速。解除安裝並刪除資料前請備份。區域網路內為 HTTP。"
+
+[fr-fr]
+name         = "HoloPlay"
+auth         = "spout8301"
+version      = "@@VERSION@@"
+descript     = "HoloPlay is a web player for 3D, VR and spatial video with support for side-by-side and over-under formats and head tracking. This package runs the Docker Hub image as a non-root container and rebuilds nginx on port 8080 to serve the player. Only the x86_64 package is built because the upstream image does not publish an arm64 variant."
+release_note = "1. First release."
+important    = "Open the web UI on port 8116 and pick a local video file. The player is a static web app; no server-side data is written. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Plain HTTP on the LAN (WebXR requires HTTPS on some browsers, use a reverse proxy if needed)."
+
+[de-de]
+name         = "HoloPlay"
+auth         = "spout8301"
+version      = "@@VERSION@@"
+descript     = "HoloPlay is a web player for 3D, VR and spatial video with support for side-by-side and over-under formats and head tracking. This package runs the Docker Hub image as a non-root container and rebuilds nginx on port 8080 to serve the player. Only the x86_64 package is built because the upstream image does not publish an arm64 variant."
+release_note = "1. First release."
+important    = "Open the web UI on port 8116 and pick a local video file. The player is a static web app; no server-side data is written. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Plain HTTP on the LAN (WebXR requires HTTPS on some browsers, use a reverse proxy if needed)."
+
+[it-it]
+name         = "HoloPlay"
+auth         = "spout8301"
+version      = "@@VERSION@@"
+descript     = "HoloPlay is a web player for 3D, VR and spatial video with support for side-by-side and over-under formats and head tracking. This package runs the Docker Hub image as a non-root container and rebuilds nginx on port 8080 to serve the player. Only the x86_64 package is built because the upstream image does not publish an arm64 variant."
+release_note = "1. First release."
+important    = "Open the web UI on port 8116 and pick a local video file. The player is a static web app; no server-side data is written. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Plain HTTP on the LAN (WebXR requires HTTPS on some browsers, use a reverse proxy if needed)."
+
+[es-es]
+name         = "HoloPlay"
+auth         = "spout8301"
+version      = "@@VERSION@@"
+descript     = "HoloPlay is a web player for 3D, VR and spatial video with support for side-by-side and over-under formats and head tracking. This package runs the Docker Hub image as a non-root container and rebuilds nginx on port 8080 to serve the player. Only the x86_64 package is built because the upstream image does not publish an arm64 variant."
+release_note = "1. First release."
+important    = "Open the web UI on port 8116 and pick a local video file. The player is a static web app; no server-side data is written. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Plain HTTP on the LAN (WebXR requires HTTPS on some browsers, use a reverse proxy if needed)."
+
+[hu-hu]
+name         = "HoloPlay"
+auth         = "spout8301"
+version      = "@@VERSION@@"
+descript     = "HoloPlay is a web player for 3D, VR and spatial video with support for side-by-side and over-under formats and head tracking. This package runs the Docker Hub image as a non-root container and rebuilds nginx on port 8080 to serve the player. Only the x86_64 package is built because the upstream image does not publish an arm64 variant."
+release_note = "1. First release."
+important    = "Open the web UI on port 8116 and pick a local video file. The player is a static web app; no server-side data is written. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Plain HTTP on the LAN (WebXR requires HTTPS on some browsers, use a reverse proxy if needed)."
+
+[ja-jp]
+name         = "HoloPlay"
+auth         = "spout8301"
+version      = "@@VERSION@@"
+descript     = "HoloPlay is a web player for 3D, VR and spatial video with support for side-by-side and over-under formats and head tracking. This package runs the Docker Hub image as a non-root container and rebuilds nginx on port 8080 to serve the player. Only the x86_64 package is built because the upstream image does not publish an arm64 variant."
+release_note = "1. First release."
+important    = "Open the web UI on port 8116 and pick a local video file. The player is a static web app; no server-side data is written. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Plain HTTP on the LAN (WebXR requires HTTPS on some browsers, use a reverse proxy if needed)."
+
+[ko-kr]
+name         = "HoloPlay"
+auth         = "spout8301"
+version      = "@@VERSION@@"
+descript     = "HoloPlay is a web player for 3D, VR and spatial video with support for side-by-side and over-under formats and head tracking. This package runs the Docker Hub image as a non-root container and rebuilds nginx on port 8080 to serve the player. Only the x86_64 package is built because the upstream image does not publish an arm64 variant."
+release_note = "1. First release."
+important    = "Open the web UI on port 8116 and pick a local video file. The player is a static web app; no server-side data is written. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Plain HTTP on the LAN (WebXR requires HTTPS on some browsers, use a reverse proxy if needed)."
+
+[pl-pl]
+name         = "HoloPlay"
+auth         = "spout8301"
+version      = "@@VERSION@@"
+descript     = "HoloPlay is a web player for 3D, VR and spatial video with support for side-by-side and over-under formats and head tracking. This package runs the Docker Hub image as a non-root container and rebuilds nginx on port 8080 to serve the player. Only the x86_64 package is built because the upstream image does not publish an arm64 variant."
+release_note = "1. First release."
+important    = "Open the web UI on port 8116 and pick a local video file. The player is a static web app; no server-side data is written. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Plain HTTP on the LAN (WebXR requires HTTPS on some browsers, use a reverse proxy if needed)."
+
+[ru-ru]
+name         = "HoloPlay"
+auth         = "spout8301"
+version      = "@@VERSION@@"
+descript     = "HoloPlay is a web player for 3D, VR and spatial video with support for side-by-side and over-under formats and head tracking. This package runs the Docker Hub image as a non-root container and rebuilds nginx on port 8080 to serve the player. Only the x86_64 package is built because the upstream image does not publish an arm64 variant."
+release_note = "1. First release."
+important    = "Open the web UI on port 8116 and pick a local video file. The player is a static web app; no server-side data is written. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Plain HTTP on the LAN (WebXR requires HTTPS on some browsers, use a reverse proxy if needed)."
+
+[tr-tr]
+name         = "HoloPlay"
+auth         = "spout8301"
+version      = "@@VERSION@@"
+descript     = "HoloPlay is a web player for 3D, VR and spatial video with support for side-by-side and over-under formats and head tracking. This package runs the Docker Hub image as a non-root container and rebuilds nginx on port 8080 to serve the player. Only the x86_64 package is built because the upstream image does not publish an arm64 variant."
+release_note = "1. First release."
+important    = "Open the web UI on port 8116 and pick a local video file. The player is a static web app; no server-side data is written. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Plain HTTP on the LAN (WebXR requires HTTPS on some browsers, use a reverse proxy if needed)."
+
+[pt-pt]
+name         = "HoloPlay"
+auth         = "spout8301"
+version      = "@@VERSION@@"
+descript     = "HoloPlay is a web player for 3D, VR and spatial video with support for side-by-side and over-under formats and head tracking. This package runs the Docker Hub image as a non-root container and rebuilds nginx on port 8080 to serve the player. Only the x86_64 package is built because the upstream image does not publish an arm64 variant."
+release_note = "1. First release."
+important    = "Open the web UI on port 8116 and pick a local video file. The player is a static web app; no server-side data is written. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Plain HTTP on the LAN (WebXR requires HTTPS on some browsers, use a reverse proxy if needed)."
+
+[ar-sa]
+name         = "HoloPlay"
+auth         = "spout8301"
+version      = "@@VERSION@@"
+descript     = "HoloPlay is a web player for 3D, VR and spatial video with support for side-by-side and over-under formats and head tracking. This package runs the Docker Hub image as a non-root container and rebuilds nginx on port 8080 to serve the player. Only the x86_64 package is built because the upstream image does not publish an arm64 variant."
+release_note = "1. First release."
+important    = "Open the web UI on port 8116 and pick a local video file. The player is a static web app; no server-side data is written. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Plain HTTP on the LAN (WebXR requires HTTPS on some browsers, use a reverse proxy if needed)."
+
+[cs-cz]
+name         = "HoloPlay"
+auth         = "spout8301"
+version      = "@@VERSION@@"
+descript     = "HoloPlay is a web player for 3D, VR and spatial video with support for side-by-side and over-under formats and head tracking. This package runs the Docker Hub image as a non-root container and rebuilds nginx on port 8080 to serve the player. Only the x86_64 package is built because the upstream image does not publish an arm64 variant."
+release_note = "1. First release."
+important    = "Open the web UI on port 8116 and pick a local video file. The player is a static web app; no server-side data is written. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Plain HTTP on the LAN (WebXR requires HTTPS on some browsers, use a reverse proxy if needed)."
+
+[he-il]
+name         = "HoloPlay"
+auth         = "spout8301"
+version      = "@@VERSION@@"
+descript     = "HoloPlay is a web player for 3D, VR and spatial video with support for side-by-side and over-under formats and head tracking. This package runs the Docker Hub image as a non-root container and rebuilds nginx on port 8080 to serve the player. Only the x86_64 package is built because the upstream image does not publish an arm64 variant."
+release_note = "1. First release."
+important    = "Open the web UI on port 8116 and pick a local video file. The player is a static web app; no server-side data is written. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Plain HTTP on the LAN (WebXR requires HTTPS on some browsers, use a reverse proxy if needed)."
+
+[id-id]
+name         = "HoloPlay"
+auth         = "spout8301"
+version      = "@@VERSION@@"
+descript     = "HoloPlay is a web player for 3D, VR and spatial video with support for side-by-side and over-under formats and head tracking. This package runs the Docker Hub image as a non-root container and rebuilds nginx on port 8080 to serve the player. Only the x86_64 package is built because the upstream image does not publish an arm64 variant."
+release_note = "1. First release."
+important    = "Open the web UI on port 8116 and pick a local video file. The player is a static web app; no server-side data is written. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Plain HTTP on the LAN (WebXR requires HTTPS on some browsers, use a reverse proxy if needed)."
+
+[nb-no]
+name         = "HoloPlay"
+auth         = "spout8301"
+version      = "@@VERSION@@"
+descript     = "HoloPlay is a web player for 3D, VR and spatial video with support for side-by-side and over-under formats and head tracking. This package runs the Docker Hub image as a non-root container and rebuilds nginx on port 8080 to serve the player. Only the x86_64 package is built because the upstream image does not publish an arm64 variant."
+release_note = "1. First release."
+important    = "Open the web UI on port 8116 and pick a local video file. The player is a static web app; no server-side data is written. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Plain HTTP on the LAN (WebXR requires HTTPS on some browsers, use a reverse proxy if needed)."
+
+[nl-nl]
+name         = "HoloPlay"
+auth         = "spout8301"
+version      = "@@VERSION@@"
+descript     = "HoloPlay is a web player for 3D, VR and spatial video with support for side-by-side and over-under formats and head tracking. This package runs the Docker Hub image as a non-root container and rebuilds nginx on port 8080 to serve the player. Only the x86_64 package is built because the upstream image does not publish an arm64 variant."
+release_note = "1. First release."
+important    = "Open the web UI on port 8116 and pick a local video file. The player is a static web app; no server-side data is written. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Plain HTTP on the LAN (WebXR requires HTTPS on some browsers, use a reverse proxy if needed)."
+
+[sv-se]
+name         = "HoloPlay"
+auth         = "spout8301"
+version      = "@@VERSION@@"
+descript     = "HoloPlay is a web player for 3D, VR and spatial video with support for side-by-side and over-under formats and head tracking. This package runs the Docker Hub image as a non-root container and rebuilds nginx on port 8080 to serve the player. Only the x86_64 package is built because the upstream image does not publish an arm64 variant."
+release_note = "1. First release."
+important    = "Open the web UI on port 8116 and pick a local video file. The player is a static web app; no server-side data is written. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Plain HTTP on the LAN (WebXR requires HTTPS on some browsers, use a reverse proxy if needed)."
+
+[th-th]
+name         = "HoloPlay"
+auth         = "spout8301"
+version      = "@@VERSION@@"
+descript     = "HoloPlay is a web player for 3D, VR and spatial video with support for side-by-side and over-under formats and head tracking. This package runs the Docker Hub image as a non-root container and rebuilds nginx on port 8080 to serve the player. Only the x86_64 package is built because the upstream image does not publish an arm64 variant."
+release_note = "1. First release."
+important    = "Open the web UI on port 8116 and pick a local video file. The player is a static web app; no server-side data is written. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Plain HTTP on the LAN (WebXR requires HTTPS on some browsers, use a reverse proxy if needed)."
+
+[vi-vn]
+name         = "HoloPlay"
+auth         = "spout8301"
+version      = "@@VERSION@@"
+descript     = "HoloPlay is a web player for 3D, VR and spatial video with support for side-by-side and over-under formats and head tracking. This package runs the Docker Hub image as a non-root container and rebuilds nginx on port 8080 to serve the player. Only the x86_64 package is built because the upstream image does not publish an arm64 variant."
+release_note = "1. First release."
+important    = "Open the web UI on port 8116 and pick a local video file. The player is a static web app; no server-side data is written. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Plain HTTP on the LAN (WebXR requires HTTPS on some browsers, use a reverse proxy if needed)."
+
